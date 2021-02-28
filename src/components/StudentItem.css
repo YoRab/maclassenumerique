@@ -1,0 +1,13 @@
+td.good-grade {
+    color:green;
+    font-weight:bold;
+}
+
+td.bad-grade {
+    color:red;
+    font-weight:bold;
+}
+
+button.actions-delete {
+    color:#8f3358;
+}

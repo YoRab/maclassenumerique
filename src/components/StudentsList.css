@@ -1,0 +1,41 @@
+ table {
+    border: 2px solid #C8C8C8;
+}
+
+table th {
+    background:#C8C8C8;
+}
+
+table.fixed {
+    table-layout: fixed;
+}
+
+table.fixed th, table.fixed td {
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 2px;
+    text-overflow: ellipsis;
+
+}
+
+ table.fixed td.actions {
+    white-space: inherit;
+
+}
+
+table.auto {
+    table-layout: auto;
+}
+
+.rightButton {
+    float:right;
+}
+
+
+table tr:nth-of-type(even) {
+    background-color: #EDEDED;
+}
+
+.count-chip {
+    margin-bottom:12px;
+}
