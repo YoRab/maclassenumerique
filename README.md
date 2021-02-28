@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# Ma classe numérique
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn install`
+
+Install all dependencies required
 
 ### `yarn start`
 
@@ -31,25 +35,25 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Structure du projet
 
-- src/
+- src/\
 Contient des fichiers JS auto-générés ainsi que index.js, point d'entrée de l'application
 
-- src/assets/
+- src/assets/\
 Contient les images intégrées au projet
 
-- src/components/
+- src/components/\
 Contient tous les composants React
 
-- src/components/dialogs/
+- src/components/dialogs/\
 Contient spécifiquement les composants dédiés aux dialogs
 
-- src/fixtures/
+- src/fixtures/\
 Contient les fixtures utilisés par les composants
 
-- src/theme/
+- src/theme/\
 Contient tous les thèmes graphiques utilisées par Material-ui
 
-- src/utils/
+- src/utils/\
 Contient des fonctions accessibles pour tous les composants
 
 ## Librairies et technologies utilisées
@@ -69,8 +73,8 @@ J'ai choisi de partir sur une architecture sans classe, et d'utiliser des Hooks,
 
 ### style
 
-- J'ai eu du mal à m'approprier en si peu de temps les bons outils de design, c'est pour cela que l'on peut trouver du plain CSS qui côtoie du theming Material-Ui et du makeStyles.\
-- Les élèves ont été affichés sous forme de tableau pour faciliter une lecture rapide. Cependant, un affichage sous forme de liste plus compacte, multiligne, serait une bonne alternative, notamment pour les versions mobiles, même si l'on perdrait alors les tris par colonne.\
+- J'ai eu du mal à m'approprier en si peu de temps les bons outils de design, c'est pour cela que l'on peut trouver du plain CSS qui côtoie du theming Material-Ui et du makeStyles.
+- Les élèves sont affichés sous forme de tableau pour faciliter une lecture rapide. Cependant, un affichage sous forme de liste plus compacte, multiligne, serait une bonne alternative, notamment pour les versions mobiles, même si l'on perdrait alors les tris par colonne.\
 A noter : la version actuelle fonctionne néanmoins sur mobile sans casser le layout, un scroll horizontal est disponible afin de naviguer sur le tableau. Si l'écran est assez petit, un bouton apparaît également en haut du tableau afin de proposer un format rétréci, pour les besoins d'une lecture différente.
 
 
@@ -84,4 +88,4 @@ Malheureusement, aucun test n'a été écrit, par manque de temps.
 
 ### Déploiement
 
-L'application a été déployée est accessible à des fins de tests à l'addresse http://yohannrabatel.ddns.net
+L'application a été déployée et est accessible à des fins de tests à l'addresse http://yohannrabatel.ddns.net
